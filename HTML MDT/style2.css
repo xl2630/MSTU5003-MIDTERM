@@ -1,0 +1,192 @@
+
+.playful figure {
+  cursor: pointer;
+  float: left;
+  margin: 10px;
+  height: 200px;
+  overflow: scroll;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.playful figure figcaption,
+.playful figure figcaption > a {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.playful figure figcaption {
+  backface-visibility: hidden;
+  color: #fff;
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+
+
+
+
+.playful figure p {
+  font-size: 14px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+ h2,
+.playful figure p {
+  margin: 0;
+}
+
+.playful figure.softeffect {
+  background: none repeat scroll 0 0 #000000;
+}
+
+.playful figure.softeffect img {
+  transition: opacity .35s ease 0s, transform .35s ease 0s;
+}
+
+figure.softeffect:hover img {
+  opacity: 0.35;
+  transform: scale(1);
+}
+
+.playful figure.softeffect figcaption:before,
+.playful figure.softeffect p {
+  opacity: 0;
+  transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+}
+
+  h4 {
+  opacity: 0;
+  padding: 20% 0 20px;
+  transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+  color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    word-spacing: -0.15em;
+  }
+
+
+
+.playful figure.softeffect p {
+  margin: 0 auto;
+  max-width: 200px;
+  transform: scale(1.5);
+}
+
+.playful figure.softeffect:hover figcaption:before,
+.playful figure.softeffect:hover p {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.playful figure.softeffect:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.playful figure img {
+  display: block;
+  max-width: 100%;
+  min-height: 100%;
+  opacity: 1;
+  position: relative;
+}
+
+figure.softeffect {
+  background: none repeat scroll 0 0 transparent;
+}
+
+figure.softeffect:hover {
+  background: none repeat scroll 0 0 #000000;
+  /* Cyan: #00aeef */
+}
+
+figure.softeffect img {
+  transform: scale(1);
+  transition: opacity .35s ease 0s, transform .35s ease 0s;
+}
+
+figure.softeffect:hover img {
+  opacity: 0.40;
+  transform: scale(1.15);
+  filter: blur(2px);
+}
+
+
+.fs-icon1
+{
+  border:none;
+  display:flex;
+  width:16px;
+  height:16px;
+  float:left;
+  background-size: cover;
+  background-image: url(http://www.visionunion.com/admin/data/file/img/20130506/20130506005701.jpg);
+  background-color: #EAEDF5;  margin-right:14px;}
+  .fs-icon2
+  {
+    border:none;
+    display:block;
+    width:16px;
+    height:16px;
+    float:left;
+    background-size: cover;
+    background-image: url(https://pbs.twimg.com/profile_images/767879603977191425/29zfZY6I.jpg);
+    background-color: #EAEDF5;  margin-right:14px;}
+  .fs-icon3
+    {
+      border:none;
+      display:block;
+      width:16px;
+      height:16px;
+      float:left;
+      background-size: cover;
+      background-image: url(http://static.wixstatic.com/media/7be225_7e1f82c8a33d489181160176d89e7204~mv2.png);
+      background-color: #EAEDF5;  margin-right:14px;}
+      .fs-icon4
+      {
+        border:none;
+        display:block;
+        width:16px;
+        height:16px;
+        float:left;
+        background-size: cover;
+        background-image: url(https://lh3.ggpht.com/zC5Q4atR1JytzagSPIPAg-z4uItJGsTVjZHvf9nSeGdwrwnuPPW_OqMk6FAI3DJvzQ=w300);
+        background-color: #EAEDF5;  margin-right:14px;}
+
+.downleft{
+    position:relative;
+    overflow:hidden;
+    float:left;
+    display:block;
+    margin-bottom:40px;
+    margin-left:180px;
+}
+.footer-links
+{
+  display:block;
+  height:16px;
+  clear:both;
+  margin-top:17px;
+  /*border:0px;*/
+  text-decoration:none;
+}
+.downright{
+  position:relative;
+  overflow:hidden;
+  float:right;
+  width:570px;
+}
+
+.form{
+  font-family:abel;
+ font-size:24px;
+ margin-top:4px;
+ color: #272727;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
